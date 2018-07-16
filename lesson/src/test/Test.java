@@ -11,14 +11,14 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		char[] cs = new char[] {'a','b','c'};
-		String str = new String(cs);
-		System.out.println(str);
-		char[] cs2 = str.toCharArray();
+		String str2 = new String(cs);
+		System.out.println(str2);
+		char[] cs2 = str2.toCharArray();
 		for (char c : cs2) {
 			System.out.println(c);
 		} 
-		System.out.println(str.charAt(1));
-		System.out.println(str.length());
+		System.out.println(str2.charAt(1));
+		System.out.println(str2.length());
 		String str3 = "  myxq ha  adf dfa;df;dd  ";
 		str3 = str3.trim();
 		System.out.println(str3);
